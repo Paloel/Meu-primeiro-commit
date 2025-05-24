@@ -1,6 +1,7 @@
 body {
-    margin: 5;
-    padding: 5;
+    margin: 5px;
+    padding: 5px;
+    line-height: 1.6;
 }
 
 h1 {
@@ -10,15 +11,23 @@ h1 {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
 }
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 p {
     font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-top: 30px;
 }
 
 ul {
@@ -32,4 +41,13 @@ ul {
     height: 200px;
     object-fit: cover;
     margin-left: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
